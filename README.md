@@ -16,12 +16,16 @@ Features
 How it looks?
 -------------
 
+Here some screenshots from the demo script in the examples folder.
 
+![Colors demo](https://raw.githubusercontent.com/mfornos/ansi-bfl/screenshots/colors-demo.jpg "Colors demo")
+
+![Report demo](https://raw.githubusercontent.com/mfornos/ansi-bfl/screenshots/report-demo.jpg "Report demo")
 
 How it feels?
 -------------
 
-Coloured text
+*Coloured text*
 
 ```bash
 ansi::fg red
@@ -38,16 +42,24 @@ ansi::fg 2
 echo Hello!
 ```
 
-Headers
+*Headers*
 
 ```bash
 ansi::heading "Heading 1"
 ```
 
-Aligned text
+```bash
+ansi::title "Title 1" "*"
+```
+
+*Aligned text*
 
 ```bash
 ansi::right "LOREM IPSUM"
+```
+
+```bash
+ansi::left_right "Summary" "0.10 $(ansi::fg blue)YES$(ansi::reset)" 80
 ```
 
 // EOF
