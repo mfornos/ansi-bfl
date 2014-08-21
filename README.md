@@ -6,7 +6,6 @@ Bash functions for Terminals with ANSI support.
 Features
 --------
 
-* Terminal modes
 * Coloured text
 * Titles and headings
 * Text alignment and formatting
