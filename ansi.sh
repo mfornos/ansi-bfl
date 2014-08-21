@@ -98,14 +98,14 @@ function ansi::heading {
 #
 # Arguments
 #    - 1: text
-#    - 2: line length (opt)
-#        defaults to text length
-#    - 3: separator (opt)
+#    - 2: separator (opt)
 #        supports unicode and ansi, defaults to '-'
+#    - 3: line length (opt)
+#        defaults to text length
 #
 function ansi::title {
   echo -e "$1"
-  ansi::hnline ${2:-${#1}} ${3:--};
+  ansi::hnline ${3:-${#1}} ${2:--};
 }
 
 ##
