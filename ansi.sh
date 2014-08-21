@@ -74,7 +74,7 @@ function ansi::hline {
 #        supports unicode and ansi, defaults to '-'
 #
 function ansi::hnline {
-  ansi::hline $@; echo;
+  ansi::hline "$@"; echo;
 }
 
 ##
@@ -105,7 +105,7 @@ function ansi::heading {
 #
 function ansi::title {
   echo -e "$1"
-  ansi::hnline ${3:-${#1}} ${2:--};
+  ansi::hnline ${3:-${#1}} "${2:--}"
 }
 
 ##
