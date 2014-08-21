@@ -25,7 +25,7 @@ Here some screenshots from the demo script in the examples folder.
 How it feels?
 -------------
 
-*Coloured text*
+__Coloured text__
 
 ```bash
 ansi::fg red
@@ -42,7 +42,7 @@ ansi::fg 2
 echo Hello!
 ```
 
-*Headers*
+__Headers__
 
 ```bash
 ansi::heading "Heading 1"
@@ -52,7 +52,7 @@ ansi::heading "Heading 1"
 ansi::title "Title 1" "*"
 ```
 
-*Aligned text*
+__Aligned text__
 
 ```bash
 ansi::right "LOREM IPSUM"
