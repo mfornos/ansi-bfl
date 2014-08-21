@@ -7,7 +7,7 @@ Features
 --------
 
 * Terminal modes
-* ANSI colors
+* Coloured text
 * Titles and headings
 * Text alignment and formatting
 * Strip ANSI escape sequences
@@ -21,7 +21,7 @@ How it looks?
 How it feels?
 -------------
 
-Printing red text
+Coloured text
 
 ```bash
 ansi::fg red
@@ -29,27 +29,25 @@ echo Hello!
 ansi::reset
 ```
 
-or
-
 ```bash
 echo "$(ansi::fg red)Hello!"
 ```
-
-or
 
 ```bash
 ansi::fg 2
 echo Hello!
 ```
 
-Printing a heading
+Headers
 
 ```bash
 ansi::heading "Heading 1"
 ```
 
-Printing right aligned text
+Aligned text
 
 ```bash
 ansi::right "LOREM IPSUM"
 ```
+
+// EOF
