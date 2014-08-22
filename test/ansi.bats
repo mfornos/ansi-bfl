@@ -40,3 +40,5 @@ load $BATS_TEST_DIRNAME/../ansi.sh
   result="$(ansi::title 'hi ho!' | tr '\n' 'N')"
   [ "$result" = "hi ho!N------N" ]
 }
+
+# EOF
