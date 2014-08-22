@@ -38,7 +38,7 @@ load $BATS_TEST_DIRNAME/../ansi.sh
 
 @test "title" {
   result="$(ansi::title 'hi ho!' | tr '\n' 'N')"
-  [ "$result" = "hi ho!N------N" ]
+  [ "$result" == "hi ho!N------N" ]
 }
 
 # EOF
