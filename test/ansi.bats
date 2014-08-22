@@ -1,6 +1,6 @@
 #!/usr/bin/env bats
 
-load $BATS_TEST_DIRNAME/../ansi.sh
+load $BATS_TEST_DIRNAME/../lib/ansi.sh
 
 @test "strip ANSI" {
   txt="$(ansi::fg 2)Hi$(ansi::reset)"

@@ -3,7 +3,7 @@
 # ANSI lib demo.
 # 
 
-. ../ansi.sh
+. ../lib/ansi.sh
 
 BASIC=(ansi::bold ansi::half_bright ansi::italics ansi::underline ansi::reverse)
 
