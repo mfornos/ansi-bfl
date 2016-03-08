@@ -71,12 +71,13 @@ On Linux, FreeBSD or OpenBSD you could try to set
 ```sh
 TERM=xterm-256color
 ```
+
 On AIX and Solaris you could try with
 
 ```sh
 TERM=dtterm
 ```
 
-Reading the *terminfo*, *termcap* and *term* manual pages can help you to find out which terminal type you should set.
+Reading the *terminfo*, *termcap* and *term* manual pages can help you to find out which terminal type should be set.
 
 // EOF
