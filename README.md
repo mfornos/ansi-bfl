@@ -64,17 +64,19 @@ ansi::left_right "Summary" "0.10 $(ansi::fg blue)YES$(ansi::reset)" 80
 How it works?
 -------------
 
-On most typical terminals and operating systems *ANSI Bash Function Library* should works out of the box, if you don't see any colors or the output is not exacthly what you expect, you probaly have a terminal type that doesn't handle all the ANSI terminal codes used by **ansi-bfl**.
+On most typical terminals and operating systems *ANSI Bash Function Library* should work out of the box, if you don't see any colors or the output is not exactly what you expect, you probably have a terminal type that doesn't handle all the ANSI terminal codes used by **ansi-bfl**.
 
-On some Linux, FreeBSD or OpenBSD terminal you could try to set
+On Linux, FreeBSD or OpenBSD you could try to set
 
 ```sh
 TERM=xterm-256color
 ```
-On AIX and Solaris you can try with
-```
+On AIX and Solaris you could try with
+
+```sh
 TERM=dtterm
 ```
-Reading the *terminfo*, *termcap* and *term* manual pages will help you to find out the terminal type you should set.
+
+Reading the *terminfo*, *termcap* and *term* manual pages can help you to find out which terminal type you should set.
 
 // EOF
