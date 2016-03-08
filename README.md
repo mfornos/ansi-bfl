@@ -61,4 +61,20 @@ ansi::right "LOREM IPSUM"
 ansi::left_right "Summary" "0.10 $(ansi::fg blue)YES$(ansi::reset)" 80
 ```
 
+How it works?
+-------------
+
+On most typical terminals and operating systems *ANSI Bash Function Library* should works out of the box, if you don't see any colors or the output is not exacthly what you expect, you probaly have a terminal type that doesn't handle all the ANSI terminal codes used by **ansi-bfl**.
+
+On some Linux, FreeBSD or OpenBSD terminal you could try to set
+
+```sh
+TERM=xterm-256color
+```
+On AIX and Solaris you can try with
+```
+TERM=dtterm
+```
+Reading the *terminfo*, *termcap* and *term* manual pages will help you to find out the terminal type you should set.
+
 // EOF
